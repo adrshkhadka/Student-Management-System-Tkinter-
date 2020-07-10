@@ -32,7 +32,7 @@ class Login:
         self.bt=Button(self.frame1,text='Login',font=('times new roman',20),bg='skyblue')
         self.bt.place(x=400,y=400,width=100,height=50)
         self.bt1=Button(self.frame1,text='Exit',font=('times new roman',20),bg='pink',fg='crimson',command=exit)
-        self.bt1.place(x=520,y=400,width=100,height=51)
+        self.bt1.place(x=520,y=400,width=100,height=50)
 
     def login(self):
         pass
